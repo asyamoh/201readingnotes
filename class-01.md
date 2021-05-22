@@ -125,19 +125,15 @@ Some elements will always
 appear to start on a new line in
 the browser window. These are
 known as block level elements. 
-Examples of block elements are
-<h1>, <p>, <ul>, and <li>.
 
-* Inline Elements: 
 
-Some elements will always
-appear to continue on the
-same line as their neighbouring
-elements. These are known as
-inline elements.
+* Inline Elements. 
+
 
 ## Summary IMAGES
-x You can specify the dimensions of images using CSS.
+
+### x You can specify the dimensions of images using CSS.
+
 This is very helpful when you use the same sized
 images on several pages of your site.
 X Images can be aligned both horizontally and vertically
@@ -152,6 +148,7 @@ X To reduce the number of images your browser has to
 load, you can create image sprites
 
 ## HTML5 Layout
+
 For a long time, web page authors used <div> elements to group
 together related elements on the page (such as the elements that form a
 header, an article, footer or sidebar). Authors used class or id attributes
