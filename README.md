@@ -2,7 +2,7 @@
 
 |title	    |link	                  
 | ---       | ----------- 
-| read01|   |	          
+| read01| [class-01](https://asyamoh.github.io/201readingnotes.github.io/class-01) |	          
 |read02 |   |		          
 |read 03|   |	                
 |read 04|   |                        

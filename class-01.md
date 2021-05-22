@@ -127,8 +127,6 @@ the browser window. These are
 known as block level elements. 
 
 
-* Inline Elements. 
-
 
 ## Summary IMAGES
 
