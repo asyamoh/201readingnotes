@@ -1,29 +1,20 @@
-ORDER OF EXECUTION
-To find the source of an error, it helps to know how scripts are processed.
-The order in which statements are executed can be complex; some tasks
-cannot complete until another statement or function has been run
-
-EXECUTION CONTEXTS
-The JavaScript interpreter uses the concept of execution contexts.
-There is one global execution context; plus, each function creates a new
-new execution context. They correspond to variable scope. 
-
-UNDERSTANDING
-SCOPE
-In the interpreter, each execution context has its own va ri ables object.
-It holds the variables, functions, and parameters available within it.
-Each execution context can also access its parent's v a ri ables object.
-Functions in JavaScript are said to have lexical scope.
-They are linked to the object they were defined within.
-So, for each execution context, the scope is the
-current execution context's variables object, plus the
-variables object for each parent execution context
-Imagine that each function is a nesting doll.
-The children can ask the parents for information in
-their variables. But the parents cannot get variables
-from their children. Each child will get the same
-answer from the same parent
-
-UNDERSTANDING ERRORS
-If a JavaScript statement generates an error, then it throws an exception.
-At that point, the interpreter stops and looks for exception-handl ing code
+What I've Learned at the 9th lecture of 201 code
+Duckett HTML
+Forms : The best known form on the web is probably the search box that sits right in the middle of Google's homepage.
+Form Controls :There are several types of form controls that you can use to collect information from visitors to your site.
+How Forms Work : A user fills in a form and then presses a button to submit the information to the server.
+Whenever you want to collect information from visitors you will need a form, which lives inside a < form > element.
+Information from a form is sent in name/value pairs.
+Each form control is given a name, and the text the user types in or the values of the options they select are sent to the server.
+HTML5 introduces new form elements which make it easier for visitors to fill in forms.
+In addition to the CSS properties covered in other chapters which work with the contents of all elements, there are several others that are specifically used to control the appearance of lists, tables, and forms.
+List markers can be given different appearances using the list-style-type and list-style image properties.
+Table cells can have different borders and spacing in different browsers, but there are properties you can use to control them and make them more consistent.
+Forms are easier to use if the form controls are vertically aligned using CSS.
+Forms benefit from styles that make them feel more interactive.
+Duckett JS book
+Events are the browser's way of indicating when something has happened (such as when a page has finished loading or a button has been clicked).
+Binding is the process of stating which event you are waiting to happen, and which element you are waiting for that event to happen upon.
+When an event occurs on an element, it can trigger a JavaScript function. When this function then changes the web page in some way, it feels interactive because it has responded to the user.
+You can use event delegation to monitor for events that happen on all of the children of an element.
+The most commonly used events are W3C DOM events, although there are others in the HTMLS specification as well as browser-specific events.
